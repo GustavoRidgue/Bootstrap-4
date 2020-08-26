@@ -1,0 +1,32 @@
+/*.img-inicio {
+	max-width: 90%;
+	max-height: 40em;
+	width: 80%;
+	height: 50%;
+}
+*/
+.imagem-carrossel {
+	/*como quer wue s img se comporre de acordo com seu conteiner: cubra-o preservando sua proporção;*/
+	object-fit: cover;
+	/*posicional a img em certo eixo*/
+	/*lados cima-baixo*/
+	object-position: 0 60%;
+	height: 400px;
+}
+
+.fonte-titulo {
+	font-family: 'Pacifico', cursive;
+}
+
+.texto-cor-especial {
+	color: darkred;
+}
+
+.botao-cor-especial {
+	background-color: darkred;
+	color: white;
+}
+
+.borda-cor-especial {
+	border-color: darkred;
+}
